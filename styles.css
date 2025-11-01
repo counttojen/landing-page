@@ -9,7 +9,7 @@
     flex-direction: column;
     height: 300px;
     background-color: #282852;
-    padding: 10px 200px 60px 200px;
+    padding: 10px 250px 60px 250px;
     gap: 60px;
 }
 
@@ -74,15 +74,18 @@ button {
 }
 
 .main_content {
+    display: flex;
+    flex-direction: column;
     height: 500px;
     background-color: #ffffff;
-    padding: 20px 200px;
+    gap: 40px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-top: 40px;
 }
 
 .info_header {
@@ -91,8 +94,8 @@ button {
 
 .info_bubbles {
     display: flex;
-    justify-content: center;
-    gap: 60px;
+    justify-content: space-between;
+    padding: 0 400px;
 }
 
 .info_bubble {
@@ -113,4 +116,23 @@ button {
     width: 120px;
     font-size: 12px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #eeeeff;
+    padding: 60px 400px;
+    font-style: italic;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.credit {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 14px;
 }
